@@ -44,7 +44,8 @@ def program():
 
         ask_user = input("What would you like? (espresso/latte/cappuccino): ").lower()
 
-        # Function for checking sufficiency of remaining resource
+        # Function for checking sufficiency of remaining resource here
+        #lets go
         def check_resource():
             if ask_user == "espresso":
                 if resources["water"] < MENU[ask_user]["ingredients"]["water"]:
